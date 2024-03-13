@@ -1,12 +1,9 @@
 #intro {
   background-color: #FFFAF5;
-  height: calc(80vh - 80px);
 }
 #intro .wrapper {
   padding-top: 80px;
-}
-#intro .wrapper .content {
-  width: 370px;
+  padding-bottom: 80px;
 }
 #intro .wrapper .content__title {
   font-weight: 900;
@@ -19,6 +16,26 @@
   line-height: 25.5px;
 }
 
+@media only screen and (max-width: 1550px) {
+  #intro .image img {
+    max-width: 600px;
+  }
+}
+@media only screen and (max-width: 1450px) {
+  #intro .image img {
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 1450px) and (max-width: 1250px) {
+  #intro .image img {
+    max-width: 450px;
+  }
+}
+@media only screen and (max-width: 1450px) and (max-width: 430px) {
+  #intro .image img {
+    max-width: 380px;
+  }
+}
 .swiper {
   width: 70%;
   height: 100%;
@@ -45,6 +62,9 @@
   font-size: 13px;
   line-height: 25px;
   color: #241400;
+}
+#swiper .mySwiper {
+  padding-top: 50px;
 }
 #swiper .mySwiper .slider .card {
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -95,6 +115,7 @@
 }
 #catalog .card {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  width: 223px;
 }
 #catalog .card h4 {
   font-weight: 700;
@@ -118,6 +139,12 @@
 }
 #about-shop .wrapper .more {
   font-weight: 700;
+  font-size: 12px;
+  line-height: 23px;
+  color: #241400;
+}
+#about-shop .wrapper .delivery_title {
+  font-weight: 400;
   font-size: 12px;
   line-height: 23px;
   color: #241400;
@@ -162,6 +189,25 @@ header nav .mobile-menu {
     width: 9px;
   }
 }
+footer {
+  background-color: #391F00;
+  color: #FFFFFF;
+}
+footer .list .logo {
+  background-color: #fff;
+}
+footer .list li a {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 25px;
+}
+footer .contact .btn-call {
+  background-color: transparent;
+  color: #E16A00;
+  border: #E16A00 1px solid;
+}
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;

@@ -1,10 +1,11 @@
 #intro{
    background-color: #FFFAF5;
-   height: calc(80vh - 80px);
+   // height: calc(80vh - 80px);
    .wrapper{
       padding-top: 80px;
+      padding-bottom: 80px;
       .content{
-         width: 370px;
+         // width: 370px;
          &__title{
             font-weight: 900;
             font-size: 36px;
@@ -18,3 +19,41 @@
       }
    }
 }
+
+@media only screen and (max-width:1550px){
+   #intro{
+      .image{
+         img{
+            max-width:600px
+         }
+      }
+   }
+}
+@media only screen and (max-width:1450px){
+   #intro{
+      .image{
+         img{
+            max-width:500px
+         }
+      }
+   }
+@media only screen and (max-width:1250px){
+   #intro{
+      .image{
+         img{
+            max-width:450px
+         }
+      }
+   }
+}
+@media only screen and (max-width:430px){
+   #intro{
+      .image{
+         img{
+            max-width:380px
+         }
+      }
+   }
+}
+}
+
