@@ -1,0 +1,20 @@
+#intro{
+   background-color: #FFFAF5;
+   height: calc(80vh - 80px);
+   .wrapper{
+      padding-top: 80px;
+      .content{
+         width: 370px;
+         &__title{
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 70.63px;  
+         }
+         &__desc{
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 25.5px;
+         }
+      }
+   }
+}
